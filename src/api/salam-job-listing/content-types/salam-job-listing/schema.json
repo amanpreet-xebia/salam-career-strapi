@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "salam_job_listings",
+  "info": {
+    "singularName": "salam-job-listing",
+    "pluralName": "salam-job-listings",
+    "displayName": "Salam job listing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "string"
+    },
+    "jobCode": {
+      "type": "string"
+    }
+  }
+}

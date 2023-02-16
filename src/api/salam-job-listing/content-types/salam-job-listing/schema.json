@@ -19,11 +19,17 @@
     "description": {
       "type": "text"
     },
-    "category": {
-      "type": "string"
-    },
     "jobCode": {
       "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Technical",
+        "Manager",
+        "Testing",
+        "Sales"
+      ]
     }
   }
 }

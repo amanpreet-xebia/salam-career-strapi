@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_submissions",
+  "info": {
+    "singularName": "form-submission",
+    "pluralName": "form-submissions",
+    "displayName": "Form Submission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    },
+    "major": {
+      "type": "string"
+    },
+    "graduationYear": {
+      "type": "string"
+    },
+    "GBA": {
+      "type": "string"
+    },
+    "isWorkExperience": {
+      "type": "boolean"
+    },
+    "totalYearsOfExperience": {
+      "type": "string"
+    },
+    "totalYearsOfRelevantExperience": {
+      "type": "string"
+    },
+    "currentCompany": {
+      "type": "string"
+    },
+    "currentJobTitle": {
+      "type": "string"
+    },
+    "professionalCertificate": {
+      "type": "string"
+    },
+    "CV": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "linkedInUrl": {
+      "type": "string"
+    }
+  }
+}

@@ -45,9 +45,6 @@
     "GBA": {
       "type": "string"
     },
-    "isWorkExperience": {
-      "type": "boolean"
-    },
     "totalYearsOfExperience": {
       "type": "string"
     },
@@ -72,6 +69,9 @@
       ]
     },
     "linkedInUrl": {
+      "type": "string"
+    },
+    "isWorkExperience": {
       "type": "string"
     }
   }

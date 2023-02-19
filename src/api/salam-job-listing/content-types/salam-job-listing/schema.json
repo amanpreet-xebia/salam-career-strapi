@@ -30,6 +30,9 @@
         "Testing",
         "Sales"
       ]
+    },
+    "longDescription": {
+      "type": "richtext"
     }
   }
 }

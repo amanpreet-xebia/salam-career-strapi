@@ -89,6 +89,9 @@
     "Gender": {
       "type": "string",
       "required": true
+    },
+    "jobTitle": {
+      "type": "string"
     }
   }
 }

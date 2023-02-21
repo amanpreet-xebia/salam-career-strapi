@@ -13,34 +13,45 @@
   "pluginOptions": {},
   "attributes": {
     "firstName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "lastName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "phone": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 10,
+      "required": true
     },
     "country": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "city": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "nationality": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "degree": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "major": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "graduationYear": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "GBA": {
-      "type": "string"
+    "GPA": {
+      "type": "string",
+      "required": true
     },
     "totalYearsOfExperience": {
       "type": "string"
@@ -69,13 +80,15 @@
       "type": "string"
     },
     "isWorkExperience": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "email": {
       "type": "email"
     },
     "Gender": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

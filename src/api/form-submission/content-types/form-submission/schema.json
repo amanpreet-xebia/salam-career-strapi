@@ -4,7 +4,7 @@
   "info": {
     "singularName": "form-submission",
     "pluralName": "form-submissions",
-    "displayName": "Form Submission",
+    "displayName": "Candidate",
     "description": ""
   },
   "options": {
@@ -93,7 +93,13 @@
     "jobTitle": {
       "type": "string"
     },
-    "jobId": {
+    "job": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::salam-job-listing.salam-job-listing",
+      "inversedBy": "candidates"
+    },
+    "jobCode": {
       "type": "string"
     }
   }

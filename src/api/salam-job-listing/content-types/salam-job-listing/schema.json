@@ -4,7 +4,7 @@
   "info": {
     "singularName": "salam-job-listing",
     "pluralName": "salam-job-listings",
-    "displayName": "Salam job listing",
+    "displayName": "Job",
     "description": ""
   },
   "options": {
@@ -28,11 +28,19 @@
         "Technical",
         "Manager",
         "Testing",
-        "Sales"
+        "Sales",
+        "Management",
+        "Marketting"
       ]
     },
     "longDescription": {
       "type": "richtext"
+    },
+    "candidates": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::form-submission.form-submission",
+      "mappedBy": "job"
     }
   }
 }

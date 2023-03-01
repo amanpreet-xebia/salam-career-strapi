@@ -41,6 +41,14 @@
       "relation": "oneToMany",
       "target": "api::form-submission.form-submission",
       "mappedBy": "job"
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "Riyadh",
+        "Eastern",
+        "Western"
+      ]
     }
   }
 }

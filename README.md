@@ -54,4 +54,14 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## For Exporting to CSV
+
+1. cd src
+2. mkdir plugins
+3. cd plugins
+4. git clone git@github.com:lazurey/strapi-plugin-content-export-import.git content-export-import
+5. cd content-export-import && yarn install
+6. switch to root directory
+7. yarn build
+8. yarn develop
+   <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>

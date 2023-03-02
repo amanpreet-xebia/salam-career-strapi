@@ -22,7 +22,7 @@
     },
     "phone": {
       "type": "string",
-      "maxLength": 10,
+      "maxLength": 18,
       "required": true
     },
     "country": {
@@ -39,7 +39,7 @@
     },
     "degree": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "major": {
       "type": "string",
@@ -63,9 +63,6 @@
       "type": "string"
     },
     "currentJobTitle": {
-      "type": "string"
-    },
-    "professionalCertificate": {
       "type": "string"
     },
     "CV": {
@@ -101,6 +98,9 @@
     },
     "jobCode": {
       "type": "string"
+    },
+    "professionalCertificate": {
+      "type": "json"
     }
   }
 }

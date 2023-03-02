@@ -22,7 +22,7 @@
     },
     "phone": {
       "type": "string",
-      "maxLength": 10,
+      "maxLength": 18,
       "required": true
     },
     "country": {
@@ -34,10 +34,6 @@
       "required": true
     },
     "nationality": {
-      "type": "string",
-      "required": true
-    },
-    "degree": {
       "type": "string",
       "required": true
     },
@@ -63,9 +59,6 @@
       "type": "string"
     },
     "currentJobTitle": {
-      "type": "string"
-    },
-    "professionalCertificate": {
       "type": "string"
     },
     "CV": {
@@ -101,6 +94,21 @@
     },
     "jobCode": {
       "type": "string"
+    },
+    "professionalCertificate": {
+      "type": "json"
+    },
+    "degree": {
+      "type": "customField",
+      "options": [
+        "Ph.D",
+        "Master's degree",
+        "Bachelor's degree",
+        "Diploma",
+        "High school",
+        "below high school"
+      ],
+      "customField": "plugin::multi-select.multi-select"
     }
   }
 }

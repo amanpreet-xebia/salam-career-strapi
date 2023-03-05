@@ -37,22 +37,6 @@
       "type": "string",
       "required": true
     },
-    "degree": {
-      "type": "string",
-      "required": false
-    },
-    "major": {
-      "type": "string",
-      "required": true
-    },
-    "graduationYear": {
-      "type": "string",
-      "required": true
-    },
-    "GPA": {
-      "type": "string",
-      "required": true
-    },
     "totalYearsOfExperience": {
       "type": "string"
     },
@@ -101,6 +85,12 @@
     },
     "professionalCertificate": {
       "type": "json"
+    },
+    "educationInformation": {
+      "displayName": "Education Information",
+      "type": "component",
+      "repeatable": true,
+      "component": "education-information.education-information"
     }
   }
 }

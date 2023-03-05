@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_educational_degrees",
+  "info": {
+    "displayName": "Educational Degree",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "degree": {
+      "type": "string"
+    },
+    "major": {
+      "type": "string"
+    },
+    "GPA": {
+      "type": "string"
+    },
+    "graduationYear": {
+      "type": "string"
+    }
+  }
+}

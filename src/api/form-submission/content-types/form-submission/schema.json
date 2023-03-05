@@ -22,7 +22,7 @@
     },
     "phone": {
       "type": "string",
-      "maxLength": 10,
+      "maxLength": 18,
       "required": true
     },
     "country": {
@@ -37,22 +37,6 @@
       "type": "string",
       "required": true
     },
-    "degree": {
-      "type": "string",
-      "required": true
-    },
-    "major": {
-      "type": "string",
-      "required": true
-    },
-    "graduationYear": {
-      "type": "string",
-      "required": true
-    },
-    "GPA": {
-      "type": "string",
-      "required": true
-    },
     "totalYearsOfExperience": {
       "type": "string"
     },
@@ -63,9 +47,6 @@
       "type": "string"
     },
     "currentJobTitle": {
-      "type": "string"
-    },
-    "professionalCertificate": {
       "type": "string"
     },
     "CV": {
@@ -101,6 +82,15 @@
     },
     "jobCode": {
       "type": "string"
+    },
+    "professionalCertificate": {
+      "type": "json"
+    },
+    "educationInformation": {
+      "displayName": "Education Information",
+      "type": "component",
+      "repeatable": true,
+      "component": "education-information.education-information"
     }
   }
 }

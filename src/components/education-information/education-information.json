@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_education_information_education_informations",
+  "info": {
+    "displayName": "Education Information"
+  },
+  "options": {},
+  "attributes": {
+    "degree": {
+      "type": "string"
+    },
+    "major": {
+      "type": "string"
+    },
+    "GPA": {
+      "type": "string"
+    },
+    "graduationYear": {
+      "type": "string"
+    }
+  }
+}

@@ -49,6 +49,9 @@
         "Eastern",
         "Western"
       ]
+    },
+    "applicationCount": {
+      "type": "integer"
     }
   }
 }

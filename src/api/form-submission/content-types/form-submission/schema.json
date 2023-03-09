@@ -91,6 +91,12 @@
       "type": "component",
       "repeatable": true,
       "component": "education-information.education-information"
+    },
+    "isIqamaTransferable": {
+      "type": "string"
+    },
+    "jobInIqama": {
+      "type": "string"
     }
   }
 }

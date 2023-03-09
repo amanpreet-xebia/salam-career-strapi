@@ -52,6 +52,15 @@
     },
     "applicationCount": {
       "type": "integer"
+    },
+    "jobLevel": {
+      "type": "enumeration",
+      "enum": [
+        "Trainee",
+        "Junior",
+        "Manager",
+        "Senior"
+      ]
     }
   }
 }

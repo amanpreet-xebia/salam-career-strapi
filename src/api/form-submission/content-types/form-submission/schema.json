@@ -115,6 +115,9 @@
     },
     "expectedSalary": {
       "type": "string"
+    },
+    "noticePeriod": {
+      "type": "string"
     }
   }
 }

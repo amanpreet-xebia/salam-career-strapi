@@ -97,6 +97,24 @@
     },
     "jobInIqama": {
       "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "relative": {
+      "type": "string"
+    },
+    "isExEmployee": {
+      "type": "string"
+    },
+    "isRelativePresent": {
+      "type": "string"
+    },
+    "currentSalary": {
+      "type": "string"
+    },
+    "expectedSalary": {
+      "type": "string"
     }
   }
 }

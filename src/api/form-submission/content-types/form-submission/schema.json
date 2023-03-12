@@ -98,9 +98,6 @@
     "jobInIqama": {
       "type": "string"
     },
-    "language": {
-      "type": "string"
-    },
     "relative": {
       "type": "string"
     },
@@ -118,6 +115,9 @@
     },
     "noticePeriod": {
       "type": "string"
+    },
+    "language": {
+      "type": "json"
     }
   }
 }

@@ -12,17 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "jobTitle": {
       "type": "string",
       "required": true
     },
-    "description": {
+    "jobSummary": {
       "type": "text"
     },
     "jobCode": {
       "type": "string"
     },
-    "category": {
+    "department": {
       "type": "enumeration",
       "enum": [
         "Technical",
@@ -33,7 +33,7 @@
         "Marketting"
       ]
     },
-    "longDescription": {
+    "jobDescription": {
       "type": "richtext"
     },
     "candidates": {

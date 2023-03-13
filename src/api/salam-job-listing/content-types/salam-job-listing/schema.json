@@ -45,9 +45,11 @@
     "location": {
       "type": "enumeration",
       "enum": [
-        "Riyadh",
-        "Eastern",
-        "Western"
+        "Central",
+        "Northern",
+        "Northwest",
+        "Midwest",
+        "Southwest"
       ]
     },
     "applicationCount": {
